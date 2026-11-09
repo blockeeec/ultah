@@ -45,7 +45,7 @@ section,#musik{position:relative;z-index:1}
 /* timeline */
 .tl{max-width:560px;width:100%;display:flex;flex-direction:column;gap:46px}
 .ph{background:rgba(255,246,239,.08);border-radius:10px;padding:10px 10px 14px}
-.ph .img{aspect-ratio:4/3;border-radius:6px;overflow:hidden;background:rgba(255,246,239,.12);display:flex;align-items:center;justify-content:center;font-size:.85rem;opacity:.9;border:1.5px dashed rgba(255,246,239,.35)}
+.ph .img{aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:rgba(255,246,239,.12);display:flex;align-items:center;justify-content:center;font-size:.85rem;opacity:.9;border:1.5px dashed rgba(255,246,239,.35)}
 .ph .img.ok{border:0}
 .ph img{width:100%;height:100%;object-fit:cover}
 .ph p{margin-top:10px;font-style:italic}
@@ -85,14 +85,14 @@ canvas{position:fixed;inset:0;pointer-events:none;z-index:30}
 
 <!-- 1. GATE (hitung mundur) -->
 <section id="gate" class="hidden">
-  <h1>Sabar ya, <span class="nm">Pinka</span> 🤫</h1>
+  <h1>Sabar ya, <span class="nm">PINKAA</span> 🤫</h1>
   <p class="sub">Kejutannya terbuka sebentar lagi...</p>
   <div id="cd"></div>
 </section>
 
 <!-- 2. KUE -->
 <section id="s1">
-  <h1>Happy Birthday, <span class="nm">Pinka</span>! 🎉</h1>
+  <h1>Happy Birthday, <span class="nm">PINKAA</span>! 🎉</h1>
   <p class="sub" id="sub">Klik lilinnya satu per satu ya!</p>
   <div class="cake" id="cake">
     <div class="candle" role="button" tabindex="0" aria-label="Padamkan lilin 1"><div class="flame"></div></div>
@@ -118,7 +118,7 @@ canvas{position:fixed;inset:0;pointer-events:none;z-index:30}
 
 <script>
 /* ============ EDIT BAGIAN INI ============ */
-const NAMA = "Pinka";
+const NAMA = "PINKAA";
 const PENGIRIM = "Aku";
 // Hitung mundur: isi "2026-12-31T00:00:00" (waktu HP dia), atau null kalau tidak mau
 const TARGET = null;
@@ -126,9 +126,10 @@ const TARGET = null;
 // FOTO: taruh file di folder "foto/" lalu samakan nama file-nya. Tambah/kurangi baris sesuka hati.
 const FOTO = [
   {src:"foto/1.jpg", cap:"Pertama kali kita kenal 😆"},
-  {src:"foto/2.jpg", cap:"Momen random yang paling seru"},
-  {src:"foto/3.jpg", cap:"Hari itu kita ketawa terus"},
-  {src:"foto/4.jpg", cap:"Foto favoritku bareng kamu"},
+  {src:"foto/2.jpg", cap:"Momen random yang paling seru 💃"},
+  {src:"foto/3.jpg", cap:"Hari itu kita ketawa terus ✨"},
+  {src:"foto/4.jpg", cap:"Nongkrong santai bareng kamu ☕"},
+  {src:"foto/5.jpg", cap:"Foto favoritku bareng kamu 🤍"},
 ];
 
 // HADIAH: 6 kotak, isi pesan masing-masing
